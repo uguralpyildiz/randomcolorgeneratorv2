@@ -49,7 +49,7 @@ function start(event) {
         for (let i = 0; i < color.length; i++) {
             color[i].style.backgroundColor = randomColorGen();
             coloralt[i].innerHTML = randomColorGen();
-            container.style.background = `linear-gradient(to bottom, ${hexColor.substring(0, 1) + hexColor.substring(1, 3) + hexColor.substring(3, 5) + hexColor.substring(5) + "50"},${hexColor.substring(0, 1) + hexColor.substring(1, 3) + hexColor.substring(3, 5) + hexColor.substring(5) + "50" })`;
+            container.style.background = `linear-gradient(to bottom, ${hexColor.substring(0, 7) + "80"},${hexColor.substring(0, 7) + "50" })`;
         }
 
     
