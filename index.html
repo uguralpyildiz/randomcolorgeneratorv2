@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorgenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+        <div class="color-palette">
+            <div class="color">
+                <div class="color-alt"></div>
+            </div>
+            <div class="color">
+                <div class="color-alt"></div>
+            </div>
+            <div class="color">
+                <div class="color-alt"></div>
+            </div>
+            <div class="color">
+                <div class="color-alt"></div>
+            </div>
+            <div class="color">
+                <div class="color-alt"></div>
+            </div>
+        </div>
+</div>
+<div class="button-container">
+    <div><button class="buttons" onclick="start()">random</button></div>
+ 
+    <div>
+        <button class="buttons" onclick="start('red')">red off</button>
+        <button class="buttons" style="background: linear-gradient(to right, rgb(252, 9, 9), rgb(255, 187, 0), rgb(236, 29, 226));" onclick="start('redlight')"></button>
+        <button class="buttons" style="background: linear-gradient(to right, rgb(252, 9, 9), rgb(8, 8, 8));" onclick="start('reddark')"></button>
+    </div>
+
+    <div>
+        <button class="buttons" onclick="start('green')">green off</button>
+        <button class="buttons" style="background: linear-gradient(to right, rgb(66, 252, 9), rgb(247, 216, 131),rgb(4, 255, 234));" onclick="start('greenlight')"></button>
+        <button class="buttons" style="background: linear-gradient(to right, rgb(29, 243, 10), rgb(23, 114, 4),rgb(3, 32, 1));" onclick="start('greendark')"></button>
+    </div>
+
+    <div>
+        <button class="buttons" onclick="start('blue')">blue off</button>
+        <button class="buttons" style="background: linear-gradient(to right, #00b9ff, #f295fa,rgb(136, 11, 130));" onclick="start('bluelight')"></button>
+        <button class="buttons" style="background: linear-gradient(to right, rgb(25, 9, 252), rgb(31, 17, 82),rgb(1, 2, 14));" onclick="start('bluedark')"></button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
