@@ -1,3 +1,4 @@
 # randomcolorgeneratorv2
-![image](https://user-images.githubusercontent.com/77773407/209688142-747605b6-4b1b-4348-b43e-15078b2ec6a1.png)
+
+![image](https://user-images.githubusercontent.com/77773407/209688453-32934a3c-ec9b-4fa8-b124-8ac1cc86a1ba.png)
 
